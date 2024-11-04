@@ -1,6 +1,9 @@
 import arcade
 import controls
 
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
 # mai e de lucru
 def player_movement(player: arcade.Sprite, SCREEN_HEIGHT, SCREEN_WIDTH):
     if player.center_x > 0 and player.center_x < SCREEN_WIDTH:
